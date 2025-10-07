@@ -1,21 +1,18 @@
-# Environnement virtuel
-.venv/
+# OS / éditeur
+.DS_Store
+.vscode/
+.idea/
+
+# Python
 __pycache__/
 *.pyc
-*.pyo
-
-# Caches et tests
-.pytest_cache/
+.venv/
 .ruff_cache/
-coverage/
-*.log
+.pytest_cache/
 
-# Bases de données locales
+# DB locale
 *.db
 
-# VSCode / Mac / OS
-.vscode/
-.DS_Store
-
-# Fichiers générés
-requirements.lock.txt
+# Clés / secrets (ne pas versionner)
+.ssh/
+.env
